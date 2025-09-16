@@ -1,4 +1,4 @@
-import { Image, ScrollView, StyleSheet, Text, View } from 'react-native'
+import { Image, ScrollView, StyleSheet, Text, Touchable, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 
 
@@ -12,6 +12,7 @@ type  DetailProps = NativeStackScreenProps<RootStackParamList, 'Details'>
 export default function DetailsPhone({route}: DetailProps) {
   const {product} = route.params
   return (
+    <View style={{flex : 1,backgroundColor:'white'}}>
     <ScrollView style={styles.mainView}>
       <View style={styles.imageView}>
         <Image
@@ -58,13 +59,26 @@ export default function DetailsPhone({route}: DetailProps) {
           ))
         }
         </View>
-
+        
         
 
          
       </View>
       
     </ScrollView>
+    <View style={styles.btn}>
+          <TouchableOpacity >
+            <View style={styles.mainBtn}>
+            <Text style={styles.btnText}>Add to Cart</Text>
+            </View>
+          </TouchableOpacity>
+          <TouchableOpacity>
+            <View style={styles.mainBtn}>
+            <Text style={styles.btnText}>Buy Now</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+        </View>
   )
 }
 
@@ -72,6 +86,7 @@ const styles = StyleSheet.create({
   mainView:{
     paddingHorizontal : 10,
     backgroundColor : 'white',
+    flex : 1,
   },
   imageView:{
     alignItems : 'center'
@@ -133,5 +148,23 @@ const styles = StyleSheet.create({
   },
   OriginalPriceTxt:{
     fontSize : 14
+  },
+  btn:{
+    flexDirection :'row',
+    justifyContent : 'space-evenly',
+    width : 400,
+  },
+  mainBtn:{
+    backgroundColor : 'green',
+    paddingVertical : 20,
+    paddingHorizontal : 50,
+    margin : 10,
+    marginRight : 0,
+    borderRadius : 10
+  },
+  btnText:{
+    color : 'white',
+    fontWeight : 'bold',
+    fontSize : 20
   }
 })

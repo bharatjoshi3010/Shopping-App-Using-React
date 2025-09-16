@@ -24,7 +24,7 @@ export default function ProductItem({product}: ProductProps) {
         </View>
         <View style={styles.price}>
          <View >
-            <Text style={styles.discountPriceTxt} >{product.discountPrice} $    </Text>
+            <Text style={styles.discountPriceTxt} >{product.discountPrice} $</Text>
         </View>
         <View>
             <Text>Origial Price : {product.originalPrice}</Text>
@@ -70,7 +70,9 @@ const styles = StyleSheet.create({
     borderRadius: 15
   },
   price:{
+    width:250,
     flexDirection : 'row',
+    justifyContent : "space-between",
     alignItems : 'baseline'
   },
   ratingTxt:{
