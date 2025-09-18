@@ -9,7 +9,7 @@ This project is ideal for learning **navigation**, **multi-screen management**, 
 ## 📱 Download APK  
 You can download the APK and try the app on your device:
 
-**[⬇️ Download APK]([YOUR_APK_LINK_HERE](https://github.com/bharatjoshi3010/Shopping-App-Using-React/raw/main/app-release.apk))**
+**[⬇️ Download APK](https://github.com/bharatjoshi3010/Shopping-App-Using-React/raw/main/app-release.apk)**
 
 ---
 
