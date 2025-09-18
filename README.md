@@ -1,97 +1,46 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# 🛍️ Shopping App
 
-# Getting Started
+A simple and clean shopping application built with **React Native** that displays a list of products. When a user selects a product, they can view detailed information about it.  
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+This project is ideal for learning **navigation**, **multi-screen management**, **data transfer between screens**, and efficient list rendering using **FlatList**.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 📱 Download APK  
+You can download the APK and try the app on your device:
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+**[⬇️ Download APK]([YOUR_APK_LINK_HERE](https://github.com/bharatjoshi3010/Shopping-App-Using-React/raw/main/app-release.apk))**
 
-```sh
-# Using npm
-npm start
+---
 
-# OR using Yarn
-yarn start
-```
+## 🚀 Features
 
-## Step 2: Build and run your app
+- Browse a list of products using **FlatList**  
+- Navigate between multiple screens using **React Navigation**  
+- View product details on a dedicated screen  
+- Transfer data between screens seamlessly  
+- Clean and responsive UI design  
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 📚 Key Learnings
 
-```sh
-# Using npm
-npm run android
+Through this project, I learned and practiced:
 
-# OR using Yarn
-yarn android
-```
+- **React Navigation** for navigating between multiple screens  
+- Handling **multi-screen apps** and passing parameters between them  
+- Efficiently rendering dynamic data using **FlatList**  
+- Structuring a React Native project for scalability and readability  
 
-### iOS
+---
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+## 🛠️ Tech Stack
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+- **React Native** – Cross-platform mobile development  
+- **React Navigation** – Screen navigation  
+- **JavaScript (ES6+)** – Core language  
 
-```sh
-bundle install
-```
+---
 
-Then, and every time you update your native dependencies, run:
+## 📂 Project Structure
 
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
